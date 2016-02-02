@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StorageResource()
+comment0.text=\n\ Create\ an\ empty\ <code>StorageResource</code>\ object\n
+comment1.params=data
+comment1.target=StorageResource(java.lang.String[])
+comment1.text=\n\ Create\ a\ <code>StorageResource</code>\ object,\ loaded\ with\ the\ Strings\ passed\ as\ parameters.\n
+comment2.params=other
+comment2.target=StorageResource(StorageResource)
+comment2.text=\n\ Create\ an\ <code>StorageResource</code>\ object\ that\ is\ a\ copy\ of\ another\ list.\n\ \n\ @param\ other\ the\ original\ list\ being\ copied\n
+comment3.params=
+comment3.target=void\ clear()
+comment3.text=\n\ Remove\ all\ strings\ from\ this\ object\ so\ that\ <code>.size()\ \=\=\ 0</code>.\n
+comment4.params=s
+comment4.target=void\ add(java.lang.String)
+comment4.text=\n\ Adds\ a\ string\ to\ this\ storage\ object.\n\ \n\ @param\ s\ the\ value\ added\n
+comment5.params=
+comment5.target=int\ size()
+comment5.text=\n\ Returns\ the\ number\ of\ strings\ added/stored\ in\ this\ object.\n\ \n\ @return\ the\ number\ of\ strings\ stored\ in\ the\ object\n
+comment6.params=s
+comment6.target=boolean\ contains(java.lang.String)
+comment6.text=\n\ Determines\ if\ a\ string\ is\ stored\ in\ this\ object.\n\ \n\ @param\ s\ string\ searched\ for\n\ @return\ true\ if\ and\ only\ if\ s\ is\ stored\ in\ this\ object\n
+comment7.params=
+comment7.target=java.lang.Iterable\ data()
+comment7.text=\n\ Create\ and\ return\ an\ iterable\ for\ all\ strings\ in\ this\ object.\n\ \n\ @return\ an\ <code>Iterable</code>\ that\ allows\ access\ to\ each\ string\ in\ the\ order\ stored\n
+numComments=8

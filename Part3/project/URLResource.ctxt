@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=URLResource(java.lang.String)
+comment0.text=\n\ Create\ a\ <code>URLResource</code>\ object\ bound\ to\ the\ web\ page\ whose\ URL\ is\ given\ as\ the\n\ parameter.\n\ \n\ Constructing\ the\ object\ opens\ a\ connection\ and\ reads\ the\ contents\ of\ the\ web\ page.\n\ \n\ @param\ name\ is\ the\ name\ of\ the\ URL,\ it\ must\ start\ with\ "http"\ or\ "https"\n\ @throws\ exception\ if\ the\ URL\ does\ not\ start\ with\ "http"\ or\ "https"\n
+comment1.params=
+comment1.target=java.lang.Iterable\ lines()
+comment1.text=\n\ Allow\ access\ to\ open\ web\ page\ one\ line\ at\ a\ time.\n\ \n\ @return\ an\ <code>Iterable</code>\ that\ allows\ access\ one\ line\ at\ a\ time\n
+comment2.params=
+comment2.target=java.lang.Iterable\ words()
+comment2.text=\n\ Allow\ access\ to\ this\ open\ web\ page\ one\ word\ at\ a\ time,\ where\ words\ are\ separated\ by\n\ white-space.\ This\ means\ any\ form\ of\ spaces,\ like\ tabs\ or\ newlines,\ can\ delimit\ words.\n\ \n\ @return\ an\ <code>Iterable</code>\ that\ allows\ access\ one\ word\ at\ a\ time\n
+comment3.params=
+comment3.target=java.lang.String\ asString()
+comment3.text=\n\ Return\ entire\ open\ web\ page\ as\ one\ string.\n\ \n\ @return\ a\ <code>String</code>\ that\ is\ the\ contents\ of\ the\ open\ web\ page\n
+comment4.params=
+comment4.target=org.apache.commons.csv.CSVParser\ getCSVParser()
+comment4.text=\n\ Returns\ a\ <code>CSVParser</code>\ object\ to\ access\ the\ contents\ of\ an\ open\ web\ page.\n\ \n\ Each\ line\ of\ the\ web\ page\ should\ be\ formatted\ as\ data\ separated\ by\ commas\ and\ with\ a\ header\n\ row\ to\ describe\ the\ column\ names.\n\ \n\ @return\ a\ <code>CSVParser</code>\ that\ can\ provide\ access\ to\ the\ records\ in\ the\ web\ page\ one\n\ \ \ \ \ \ \ \ \ at\ a\ time\n\ @throws\ exception\ if\ this\ web\ page\ does\ not\ represent\ a\ CSV\ formatted\ data\n
+comment5.params=withHeader
+comment5.target=org.apache.commons.csv.CSVParser\ getCSVParser(boolean)
+comment5.text=\n\ Returns\ a\ <code>CSVParser</code>\ object\ to\ access\ the\ contents\ of\ an\ open\ web\ page,\ possibly\n\ without\ a\ header\ row.\n\ \n\ Each\ line\ of\ the\ web\ page\ should\ be\ formatted\ as\ data\ separated\ by\ commas\ and\ with/without\ a\n\ header\ row\ to\ describe\ the\ column\ names.\n\ \n\ @param\ withHeader\ uses\ first\ row\ of\ data\ as\ a\ header\ row\ only\ if\ true\n\ @return\ a\ <code>CSVParser</code>\ that\ can\ provide\ access\ to\ the\ records\ in\ the\ web\ page\ one\n\ \ \ \ \ \ \ \ \ at\ a\ time\n\ @throws\ exception\ if\ this\ web\ page\ does\ not\ represent\ a\ CSV\ formatted\ data\n
+comment6.params=withHeader\ delimiter
+comment6.target=org.apache.commons.csv.CSVParser\ getCSVParser(boolean,\ java.lang.String)
+comment6.text=\n\ Returns\ a\ <code>CSVParser</code>\ object\ to\ access\ the\ contents\ of\ an\ open\ web\ page,\ possibly\n\ without\ a\ header\ row\ and\ a\ different\ data\ delimiter\ than\ a\ comma.\n\ \n\ Each\ line\ of\ the\ web\ page\ should\ be\ formatted\ as\ data\ separated\ by\ the\ delimiter\ passed\ as\ a\n\ parameter\ and\ with/without\ a\ header\ row\ to\ describe\ the\ column\ names.\ This\ is\ useful\ if\ the\n\ data\ is\ separated\ by\ some\ character\ other\ than\ a\ comma.\n\ \n\ @param\ withHeader\ uses\ first\ row\ of\ data\ as\ a\ header\ row\ only\ if\ true\n\ @param\ delimiter\ a\ single\ character\ that\ separates\ one\ field\ of\ data\ from\ another\n\ @return\ a\ <code>CSVParser</code>\ that\ can\ provide\ access\ to\ the\ records\ in\ the\ web\ page\ one\n\ \ \ \ \ \ \ \ \ at\ a\ time\n\ @throws\ exception\ if\ this\ web\ page\ does\ not\ represent\ a\ CSV\ formatted\ data\n\ @throws\ exception\ if\ <code>delimiter.length()\ \!\=\ 1</code>\n
+comment7.params=parser
+comment7.target=java.lang.Iterable\ getCSVHeaders(org.apache.commons.csv.CSVParser)
+comment7.text=\n\ Allows\ access\ to\ the\ column\ names\ of\ the\ header\ row\ of\ a\ CSV\ file\ (the\ first\ line\ in\ the\n\ file)\ one\ at\ a\ time.\ If\ the\ CSV\ file\ did\ not\ have\ a\ header\ row,\ then\ an\ empty\n\ <code>Iterator</code>\ is\ returned.\n\ \n\ @param\ parser\ the\ <code>CSVParser</code>\ that\ has\ been\ created\ for\ this\ web\ page\n\ @return\ an\ <code>Iterable</code>\ that\ allows\ access\ one\ header\ name\ at\ a\ time\n
+comment8.params=stream
+comment8.target=java.lang.String\ initFromStream(java.io.InputStream)
+numComments=9

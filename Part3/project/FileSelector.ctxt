@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.io.File\ selectFile()
+comment0.text=\n\ Pops\ up\ a\ dialog\ box\ to\ select\ only\ one\ file.\n\ \n\ @return\n
+comment1.params=extensionAccepted
+comment1.target=java.io.File\ selectFile(java.lang.String[])
+comment1.text=\n\ Pops\ up\ a\ dialog\ box\ to\ select\ only\ one\ file\ with\ given\ extensions.\n
+comment2.params=
+comment2.target=java.io.File[]\ selectFiles()
+comment2.text=\n\ Pops\ up\ a\ dialog\ box\ to\ select\ multiple\ files.\n
+comment3.params=extensionAccepted
+comment3.target=java.io.File[]\ selectFiles(java.lang.String[])
+comment3.text=\n\ Pops\ up\ a\ dialog\ box\ to\ select\ multiple\ files\ with\ given\ extensions.\n\ @return\n
+comment4.params=
+comment4.target=java.io.File\ saveFile()
+comment4.text=\n\ Pops\ up\ a\ dialog\ box\ to\ save\ file\ with\ any\ extension.\n
+comment5.params=extensionAccepted
+comment5.target=java.io.File\ saveFile(java.lang.String[])
+comment5.text=\n\ Pops\ up\ a\ dialog\ box\ to\ save\ file\ with\ given\ extensions.\n
+comment6.params=extensionAccepted\ allowMultiple\ openForRead
+comment6.target=java.io.File[]\ selectFiles(java.lang.String[],\ boolean,\ boolean)
+comment7.params=
+comment7.target=void\ run()
+numComments=8

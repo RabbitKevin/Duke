@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=source\ regexp
+comment0.target=TextIterable(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Create\ from\ a\ given\ string.\n
+comment1.params=
+comment1.target=java.util.Iterator\ iterator()
+comment1.text=\n\ @see\ java.lang.Iterator\n
+comment2.params=
+comment2.target=boolean\ hasNext()
+comment3.params=
+comment3.target=java.lang.String\ next()
+numComments=4

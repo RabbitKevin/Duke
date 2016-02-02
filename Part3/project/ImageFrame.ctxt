@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=fileName\ image
+comment0.target=ImageFrame(java.lang.String,\ java.awt.Image)
+comment0.text=\n\ Creates\ an\ ImageFrame.\n
+comment1.params=image
+comment1.target=void\ show(java.awt.Image)
+comment1.text=\n\ Displays\ an\ image\ in\ this\ frame.\n
+numComments=2
