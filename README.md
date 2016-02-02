@@ -1,1 +1,1 @@
-# Duke
+# Duke Java Specialization
