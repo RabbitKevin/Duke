@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=
-comment0.target=DirectoryResource()
-comment0.text=\n\ Create\ a\ <code>DirectoryResource</code>\ object.\n\ \n\ Creating\ a\ <code>DirectoryResource</code>\ object\ does\ not\ open\ a\ dialog\ box\ for\ selecting\n\ files.\n
-comment1.params=
-comment1.target=java.lang.Iterable\ selectedFiles()
-comment1.text=\n\ Open\ a\ file\ selection\ dialog\ box\ to\ allow\ the\ user\ to\ navigate\ to\ a\ directory\ and\ select\ one\n\ or\ more\ files\ from\ the\ chosen\ directory\ (or\ folder).\n\ \n\ The\ file\ selection\ dialog\ box\ opened\ starts\ in\ the\ current\ project\ folder.\n\ \n\ @return\ an\ <code>Iterable</code>\ that\ accesses\ the\ chosen\ files\ one\ at\ a\ time\n
-numComments=2
