@@ -43,7 +43,7 @@ class FirstRatings{
                 result.get(index).addRating(movie_ID, rating);
             }
             else{
-                Rater rater = new Rater(rater_ID);
+                Rater rater = new EfficientRater(rater_ID);
                 rater.addRating(movie_ID, rating);
                 result.add(rater);
                 map.put(rater_ID, currentIndex++);

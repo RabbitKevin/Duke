@@ -4,8 +4,8 @@ import org.apache.commons.csv.*;
 
 class test{
     public static void main(String[] args){
-        //String movie = "data/ratedmoviesfull.csv";
-        //String rate = "data/ratings.csv";
+        String movie = "data/ratedmoviesfull.csv";
+        String rate = "data/ratings.csv";
         //FirstRatings rating = new FirstRatings();
         //ArrayList<Movie> movies = rating.loadMovies(movie);
         //rating.testLoadMovies(movies);
@@ -13,6 +13,6 @@ class test{
         //rating.testLoadRaters(raters);
         MovieRunnerAverage test = new MovieRunnerAverage();
         test.printAverageRatings(12);
-        //test.getAverageRatingOneMovie();
+        test.getAverageRatingOneMovie();
     }
 }
