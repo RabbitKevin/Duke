@@ -3,6 +3,7 @@ import org.apache.commons.csv.*;
 import edu.duke.FileResource;
 
 public class MovieDatabase {
+    //key: movieID
     private static HashMap<String, Movie> ourMovies;
 
     public static void initialize(String moviefile) {
@@ -17,9 +18,9 @@ public class MovieDatabase {
             ourMovies = new HashMap<String,Movie>();
             loadMovies("data/ratedmoviesfull.csv");
         }
-    }	
+    }
 
-	
+
     private static void loadMovies(String filename) {
         FirstRatings fr = new FirstRatings();
         ArrayList<Movie> list = fr.loadMovies(filename);
@@ -85,7 +86,6 @@ public class MovieDatabase {
                 list.add(id);
             }
         }
-        
         return list;
     }
 
